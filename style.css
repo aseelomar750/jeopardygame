@@ -1,0 +1,93 @@
+/*
+  You don't need to touch this file to complete the assignment!
+  Unless you want to add styles and make it look more beautiful.
+*/
+
+/*
+  Some colors you may find useful:
+  #115ff4
+  #060ce9;
+  #28a200
+  #8d2ab5
+  #74119c
+*/
+
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #060ce9;
+  color: #fff;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.disabled
+{
+  display: none;
+}
+
+.viewed
+{
+  text-decoration: line-through;
+}
+
+
+table thead th, table tbody td{
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  border: 1px solid gray;
+  cursor: pointer;
+  color: white;
+  background-color: #115ff4;
+}
+table thead th {
+  background-color: #060ce9;
+}
+table tbody td:hover {
+  background-color:#0154ef;
+}
+table {
+  width: 100%;
+}
+
+#active-clue {
+  font-size: 40px;
+  position: absolute;
+  margin: 0 auto;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  padding-top: 20%;
+  background-color: rgba(60, 60, 60, 0.9);
+  cursor: pointer;
+  display: none;
+  transition: all 0.3s;
+}
+
+#active-clue span {
+  font-family: Montserrat;
+  text-shadow: 0 0 0 0 black;
+}
+#question {
+  color:#115ff4;
+}
+#value {
+  font-size: 20px;
+  color: rgb(99, 217, 99);
+}
+
+form input, form button {
+  font-size: 16px;
+  padding: 5px;
+}
+
+form input {
+  width: 300px;
+}
